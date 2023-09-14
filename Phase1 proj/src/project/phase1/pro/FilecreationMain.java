@@ -19,8 +19,6 @@ public class FilecreationMain  {
 		
 		String fileName = sc.next()	;
 		
-		// String path = jj.getPath()+ "//" + "aac.txt";
-		
 		String path = MainMenuClass.rootpath.getPath()+ "//" + fileName;
 		MainMenuClass.rootpath = new File(path);
 		

@@ -47,7 +47,7 @@ public class MainMenuClass {
 			}
 			}catch (Exception e)
 			{
-				System.err.print(e);
+				System.err.println(e);
 				
 			}
 			
