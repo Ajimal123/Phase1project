@@ -10,7 +10,7 @@ public class FilecreationMain  {
 
 	public static void FileCreation() throws Exception{
 		
-//File jj = new File("D:\\work\\JavaPhase1pro\\Files");
+
 		MainMenuClass.rootpath = new File("D:\\work\\JavaPhase1pro\\Files");
 		sc = new Scanner(System.in);
 		

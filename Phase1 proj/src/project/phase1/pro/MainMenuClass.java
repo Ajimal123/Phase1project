@@ -21,7 +21,7 @@ public class MainMenuClass {
 			System.out.println("Please enter the below options you want to check from your end");
 			System.out.println("Please enter 1 : Display all files in ascending order");
 			System.out.println("Please enter 2 : SubMenu Options :: ADD / DELETE / SEARCH the specified files in the application  ");
-			System.out.println("Please enter 3 : Exit");
+			System.out.println("Please enter 3 : Exit from the application");
 			
 			int choice = sc.nextInt();
 			switch (choice) {
@@ -31,6 +31,7 @@ public class MainMenuClass {
 				break;
 			case 3:	System.exit(0);
 				break;
+			default: System.out.println("Please enter the correct option");
 			
 
 			}

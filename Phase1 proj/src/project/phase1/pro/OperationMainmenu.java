@@ -1,7 +1,7 @@
 package project.phase1.pro;
 
 
-public class OperationMain  {
+public class OperationMainmenu  {
 
 	public static void main(String[] args) throws Exception {
 
